@@ -1,0 +1,85 @@
+.header{
+    position: fixed;
+    overflow-y: hidden;
+    top:0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    z-index: 999;
+    padding: 2rem;
+    height: 10px;
+    background-color: rgb(124, 120, 120);
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-color: rgb(241, 241, 248);
+    width: 20%;
+    font-size: 5rem;height: 6rem;
+    margin-bottom: 1rem;
+    margin-top:-1rem;
+    margin-left: 5rem;
+}
+.litag{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 10px;
+}
+.formlink a{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: aliceblue;
+    width: 90px;
+    text-decoration: none;
+    margin-right: 200px;
+    border-radius: 10px;
+    align-items: center;
+    font-size: larger;
+}
+.header ul li,.header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+@media screen and (max-width: 660px){
+    .litag{
+        margin-left: 20px;
+        margin-bottom: 60px;
+        font-size: 20px;
+        font-weight: 10px;
+    }
+    .formlink{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        background-color: aliceblue;
+        width: 80px;
+        margin-right: 100px;
+        border-radius: 10px;
+        align-items: center;
+        font-size: larger;
+    }
+}
+@media screen and (max-width: 425px){
+    .litag{
+        margin-left: 20px;
+        margin-bottom: 52px;
+        font-size: 18px;
+        font-weight: 8px;
+    }
+    .formlink{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        background-color: aliceblue;
+        width: 50px;
+        margin-right: 70px;
+        border-radius: 10px;
+        align-items: center;
+        font-size: larger;
+    }
+}

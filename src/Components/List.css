@@ -1,0 +1,7 @@
+.todostyle{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    margin: 10px;
+}

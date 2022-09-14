@@ -1,0 +1,42 @@
+.box{
+    display: flex;
+    flex-direction:column;
+    border: 5px solid black;
+    background-color: rgb(109, 192, 192);
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    align-content: center;
+    margin: 100px auto ;
+}
+.cardbox{
+    display: flex;
+    height: 86vh;
+    width: 100vw;
+    margin-top: 65px;
+    align-items: center;
+    background-color: rgb(144, 228, 228);
+    flex-direction: column;}
+
+@media screen and (max-width:600px ) {
+    .box{
+        display: flex;
+        flex-direction:column;
+        border: 5px solid black;
+        background-color: rgb(109, 192, 192);
+        height: 300px;
+        width: 200px;
+        border-radius: 10px;
+        align-content: center;
+        margin: 100px auto ;
+    }
+    .cardbox{
+        display: flex;
+        height: 86vh;
+        width: 100vw;
+        margin-top: 65px;
+        align-items: center;
+        background-color: rgb(144, 228, 228);
+        flex-direction: column;
+    }
+} 
